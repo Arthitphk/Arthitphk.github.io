@@ -9,25 +9,46 @@
 </head>
 <body>
     
-    <!--================== HEADER ==================-->
-    <header>
-        <nav>
-            <div class="container">
-                <div class="logo">
-                    <h1>Nont Arthit</h1>
-                </div>
-                <ul id="menuList">
-                    <li><a href="">Home</a></li>
-                    <li><a href="">About</a></li>
-                    <li><a href="">Projects</a></li>
-                    <li><a href="">Contact</a></li>
-                </ul>
-                <div class="menu-icon">
-                    <i class="fa-solid fa-bars" onclick="toggleMenu()"></i>
-                </div>
-            </div>
+    
+    <header class="header">
+        <a href="#home" class="logo">Nont
+            <span>Arthit</span>
+        </a>
+
+        <i class="fa-solid fa-bars" id="menu_icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#project">Projects</a>
+            <a href="#contact">Contact</a>
         </nav>
     </header>
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h1>Hi, It's <span>Arthit</span></h1>
+            <h3 class="text-animation">I'm a <span></span></h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore, architecto nulla at delectus veniam earum eius illo ratione? Iusto molestiae, illum tempore officia modi laudantium eligendi sint? Doloribus, consequuntur quod.</p>
+
+            <div class="social-icons">
+                <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                <a href=""><i class="fa-brands fa-github"></i></a>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-facebook"></i></a>
+            </div>
+
+            <div class="btn-group">
+                <a href="#" class="btn">hire</a>
+                <a href="#" class="btn">Contact</a>
+            </div>
+
+        </div>
+        <div class="home-img">
+            <img src="./Images/stdempimg.jpg" alt="">
+        </div>
+    </section>
+    
 
 
 
