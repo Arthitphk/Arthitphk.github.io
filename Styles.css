@@ -141,8 +141,8 @@ span {
 
 .home-img img:hover {
     box-shadow: 0 0 25px var(--main-color),
-                 0 0 25px var(--main-color),
-                 0 0 25px var(--main-color);
+                0 0 25px var(--main-color),
+                0 0 25px var(--main-color);
 }
 
 .home-content p {
@@ -224,9 +224,8 @@ span {
 }
 
 .text-animation  span::before{
-    content: "Web Developer";
+    content: "Frontend Developer";
     color: var(--main-color);
-    animation: words 20s infinite;
 }
 
 .text-animation  span::after{
@@ -242,17 +241,6 @@ span {
 @keyframes cursor{
     to{
         border-left: 2px solid var(--main-color);
-    }
-}
-
-@keyframes words{
-    0%,
-    20%{
-        content: "Frontend Developer";
-    }
-    21%,
-    40%{
-        content: "Web Designer";
     }
 }
 
