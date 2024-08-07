@@ -241,8 +241,11 @@ section {
 }
 
 .detail_container_2 {
-    padding: 5rem;
+    padding: 4rem;
     flex: 1;
+    border-radius: 2rem;
+    border: rgb(53, 53, 53) 0.1rem solid;
+    border-color: rgb(163, 163, 163);
     background: var(--bg-color);
     text-align: center;
 }
