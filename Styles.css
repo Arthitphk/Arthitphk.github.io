@@ -257,6 +257,14 @@ section {
 
 
 
+.Card_section {
+    display: flex;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+
+
 .card {
     position: relative;
     width: 350px;
