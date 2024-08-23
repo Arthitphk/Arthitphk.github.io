@@ -204,9 +204,9 @@ section {
     flex-direction: column;
 }
 
-.about_detail_container {
+/* .about_detail_container {
 
-}
+} */
 
 .about_container {
    display: flex;
@@ -301,7 +301,7 @@ section {
     height: 100%;
     padding: 20px;
     box-sizing: border-box;
-    background-color: #f2f2f2;
+    
     transform: rotateX(-90deg);
     transform-origin: bottom;
     transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
@@ -314,7 +314,7 @@ section {
   .card__title {
     margin: 0;
     font-size: 20px;
-    color: #333;
+    color: #fffefe;
     font-weight: 700;
   }
   
@@ -325,7 +325,7 @@ section {
   .card__description {
     margin: 10px 0 10px;
     font-size: 12px;
-    color: #777;
+    color: #ffffff;
     line-height: 1.4;
   }
   
