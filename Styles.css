@@ -451,4 +451,33 @@ section {
     .container{
         margin-inline: auto;
     }
+
+    .info__container  {
+        row-gap: 4rem;
+    }
+
+    .info_title {
+        margin-bottom: 3.5rem;
+       
+    }
+
+    .about {
+        grid-template-columns: 320px 420px;
+        column-gap: 12rem;
+    }
+
+    
+
+    .about_description {
+        margin-bottom: 3rem;
+    }
+
+    .experience_content {
+        row-gap: 4rem;
+    }
+
+    .Skills_content {
+        grid-template-columns: repeat(6, max-content);
+    }
 }
+
