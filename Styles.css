@@ -445,12 +445,14 @@ section {
   }
   
   .blog_card_image {
-    min-height: 170px;
-    background-color: #c9c9c9;
     border-radius: 15px;
-    box-shadow: inset 8px 8px 10px #c3c3c3,
-              inset -8px -8px 10px #cfcfcf;
   }
+
+  .blog_card_image img {
+    width: 100%;
+    border-radius: 10px;
+  }
+
   
   .blog_card_body {
     margin: 13px 0 0 10px;
