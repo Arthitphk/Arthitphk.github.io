@@ -545,9 +545,13 @@ section {
   
 
 
+  .button_blog a {
+    color: #252525;
+  }
 
-
-
+  .button_blog a:hover{
+    color: white;
+  }
 
 
 
