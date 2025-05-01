@@ -15,12 +15,11 @@
     --bg-color: rgb(22, 28, 36);
     --bg-color2: #212b36;
     --hover-color: #ffc400;
-    --text-color: #ffff
+    --text-color: #ffff;
 }
 
 html {
     overflow-x: hidden;
-    font-size: 60%;
 }
 
 body {
@@ -28,10 +27,6 @@ body {
     color: var(--text-color);
 }
 
-.grid {
-    display: grid;
-    gap: 1.5rem;
-}
 
 
 
@@ -40,7 +35,7 @@ body {
     top: 0;
     left: 0;
     width: 100%;
-    padding: 3rem 12% 3rem;
+    padding: 2rem 13% 2rem;
     background: var(--bg-color2);
     display: flex;
     justify-content: space-between;
@@ -49,7 +44,7 @@ body {
 }
 
 .logo {
-    font-size: 3rem;
+    font-size: 2rem;
     color: var(--text-color);
     font-weight: 800;
     cursor: pointer;
@@ -63,7 +58,7 @@ body {
 
 
 .navbar a{
-    font-size: 1.8rem;
+    font-size: 1rem;
     color: var(--text-color);
     margin-left: 4rem;
     font-weight: 500;
