@@ -20,6 +20,15 @@ body {
     background-color: var(-);
 }
 
+.title {
+    text-align: center;
+    color: var(--text-color);
+    font-size: 40px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+}
+
 
 
 
@@ -60,10 +69,11 @@ ul.menu li a {
 .logo {
     text-decoration: none;
     color: var(--text-color);
-    font-size: 20px;
+    font-size: 30px;
     font-weight: 700;
     font-family: "Poppins", sans-serif;
     font-style: normal;
+    
 }
 
 
@@ -118,7 +128,7 @@ img.img-main {
 
 .banner-bt1 {
    width: 195px;
-   height: 64px;
+   height: 54px;
    flex-shrink: 0;
    border: 2px solid #fff;
    border-radius: 50px;
@@ -131,7 +141,7 @@ img.img-main {
 
  .banner-bt2 {
    width: 195px;
-   height: 64px;
+   height: 54px;
    flex-shrink: 0;
    color: var(--text-color);
    border-radius: 50px;
@@ -152,13 +162,45 @@ img.img-main {
 
 .banner-bt2:hover {
   background: var(--hover-color);
-  color: var(--bg-color2);  
+  color: var(--bg-color2);
+  border: 3px solid #000;  
 }
 
 
-
-
-
-
-
 /*-------------- Banner section --------------*/
+
+
+
+
+/*-------------- Portfolio section --------------*/
+.portfolio-con {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5rem;
+}
+
+
+.portfolio-img {
+    width: 500px;
+    height: 300px;
+    border-radius: 2%;
+
+}
+  
+.portfolio-text {
+    overflow: hidden;
+    width: 500px;
+    height: 275px;
+}
+
+.portfolio-text p {
+   font-size: 15px;
+   font-weight: 700;
+   font-family: "Poppins", sans-serif;
+   font-style: normal;
+   color: var(--text-color); 
+}
+
+
+/*-------------- Portfolio section --------------*/
+
