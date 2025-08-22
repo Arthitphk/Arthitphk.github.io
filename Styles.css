@@ -184,7 +184,6 @@ img.img-main {
 .portfolio-con {
     display: flex;
     margin-top: 5rem;
-     
     margin: 30px auto;
     width: min(1170px, 100%);
     gap: 30px;
@@ -346,12 +345,89 @@ img.img-main {
     filter: saturate(.2) opacity(.5);
   }
 }
-
-
-
-
-
-
-
 /*-------------- Portfolio section --------------*/
 
+/*-------------- Blog section --------------*/
+.blog-con {
+    display: flex;
+    gap: 2rem;
+}
+
+.blog-item {
+  max-width: 350px;
+  border-radius: 0.5rem;
+  background-color: #fff;
+  overflow: hidden;
+}
+
+.blog-item:hover {
+ filter: drop-shadow(-1px 4px 9px #ffc400);
+}
+
+
+
+.blog-item a {
+  text-decoration: none
+}
+
+.content {
+  padding: 1.1rem;
+}
+
+.blog-img img {
+  width:  350px;
+  height: 250px;
+}
+
+.blog-img:hover img {
+  transform: scale(1.1);
+  transition: ease-in .3s;
+
+}
+
+
+
+.blog-title {
+  color: #111827;
+  font-size: 20px;
+  line-height: 1.75rem;
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+}
+
+.desc {
+  margin-top: 0.5rem;
+  color: var( --base-color);
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+}
+
+.action {
+  display: inline-flex;
+  margin-top: 1rem;
+  color: #ffffff;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-weight: 500;
+  align-items: center;
+  gap: 0.25rem;
+  background-color: #2563EB;
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+
+.action span {
+  transition: .3s ease;
+}
+
+.action:hover span {
+  transform: translateX(4px);
+}
+
+
+
+/*-------------- Blog section --------------*/
