@@ -362,6 +362,8 @@ img.img-main {
 
 .blog-item:hover {
  filter: drop-shadow(-1px 4px 9px #ffc400);
+ transform: scale(1.1);
+ transition: ease-in .3s;
 }
 
 
@@ -379,11 +381,7 @@ img.img-main {
   height: 250px;
 }
 
-.blog-img:hover img {
-  transform: scale(1.1);
-  transition: ease-in .3s;
 
-}
 
 
 
