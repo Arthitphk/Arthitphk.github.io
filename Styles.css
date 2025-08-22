@@ -19,7 +19,7 @@
 
 
 
-.title {
+.title, .title-2 {
     text-align: center;
     color: var(--text-color);
     font-size: 40px;
@@ -29,6 +29,9 @@
     margin-bottom: 4.5rem;
 }
 
+.title-2 {
+    margin-top: 5rem;
+}
 
 
 
@@ -181,6 +184,7 @@ img.img-main {
 .portfolio-con {
     display: flex;
     margin-top: 5rem;
+     
     margin: 30px auto;
     width: min(1170px, 100%);
     gap: 30px;
@@ -322,6 +326,26 @@ img.img-main {
     margin-bottom: 0;
 }
 
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(300px, 100%), 1fr));
+  gap: 2em;
+  padding: 2em;
+  pointer-events: none;
+
+  img {
+    display: block;
+    width: 100%;
+    border-radius: .25em;
+    transition: 250ms 50ms;
+    pointer-events: auto;
+  }
+  
+  &:hover img:not(:hover) {
+    filter: saturate(.2) opacity(.5);
+  }
+}
 
 
 
