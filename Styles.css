@@ -699,6 +699,54 @@ img.img-main {
 /*-------------- Responsive Nav --------------*/
 
 
+/*-------------- banner Nav --------------*/
+@media (max-width: 767px) {
+
+   .banner-con p {
+    font-size: 15px;
+    color: var(--text-color);
+    font-weight: 500;
+}
+
+}
+
+@media (max-width: 390px) { 
+
+  .banner-con {
+    padding: 40px;
+  }
+
+  img.img-main {
+    height: 200px;
+    width: 200px;
+    margin: 1rem;
+    border-radius: 50%;
+}
+
+  .banner-con h1 {
+    font-size: 30px;
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    color: var(--text-color);
+    margin: 1rem;
+  }
+
+
+  .banner-con p {
+    font-size: 11px;
+    color: var(--text-color);
+    font-weight: 500;
+}
+}
+
+/*-------------- banner Nav --------------*/
+
+
+
+
+
+
 /*-------------- Responsive portfolio --------------*/
 
 @media (max-width: 1000px) {
@@ -712,24 +760,23 @@ img.img-main {
   flex-wrap: wrap;
  }
 
-  .thumnail img {
-    
-  }
+  
 }
 
 
+@media (max-width: 390px) {
+  .thumnail {
+    width: 100%;
+  }
+
+  .portfolio-item p {
+   font-size: 10px;
+   }
+}
+
+
+
 /*-------------- Responsive portfolio --------------*/
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -743,3 +790,83 @@ img.img-main {
 }
 
 /*-------------- Blog portfolio --------------*/
+
+
+/*-------------- Contact portfolio --------------*/
+
+@media (max-width: 390px) {
+
+.footer {
+  margin-top: 5rem;
+}
+
+
+.footer-con {
+  padding: 100px 0 100px 0;
+}
+
+
+
+
+
+.email {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin: 2rem 0 1rem 0;
+  font-size: 20px;
+}
+
+
+.email svg {
+  height: 24px;
+  width: 24px;
+}
+
+.phone {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  font-size: 20px;
+}
+
+.phone p {
+  margin-bottom: 0;
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+}
+
+.phone svg {
+  height: 24px;
+  width: 24px;
+}
+
+.icon-contact {
+  display: flex;
+  margin: 2rem 0 2rem 0;
+  gap: 20px;
+}
+
+.icon-contact svg {
+  height: 30px;
+  width: 30px;
+  color: rgb(145, 158, 171);
+}
+
+.line svg:hover {
+  color: green;
+  cursor: pointer;
+}
+
+.facebook svg:hover {
+  color: #1d4292;
+  cursor: pointer;
+}
+
+
+
+}
+
+
+/*-------------- Contact portfolio --------------*/
