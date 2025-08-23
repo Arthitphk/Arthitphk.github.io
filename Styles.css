@@ -364,7 +364,6 @@ img.img-main {
     border: none;
     cursor: pointer;
     transition: 400ms;
-
 }
 
 .portfolio-item h3{
@@ -376,6 +375,7 @@ img.img-main {
    font-family: "Poppins", sans-serif;
    font-style: normal;
    color: var(--text-color); 
+
 }
 
 .portfolio-item p {
@@ -548,7 +548,7 @@ img.img-main {
   font-weight: 500;
   align-items: center;
   gap: 0.25rem;
-  background-color: rgb(145, 158, 171);
+  background-color: var(--bg-color1);
   padding: 4px 8px;
   border-radius: 4px;
 }
@@ -663,6 +663,8 @@ img.img-main {
 @media (min-width: 1000px) {
   ul.menu {
     display: flex !important;
+    
+    
    }
 }
 
@@ -676,13 +678,14 @@ img.img-main {
 
 
     ul.menu {
-      display: none; !important
+      display: none; 
       flex-direction: column;
       margin-top: 50px;
 
       li{
         margin-left: 0;
         padding: 20px 0;
+        
       }
     }
   }
@@ -690,8 +693,53 @@ img.img-main {
     height: auto;
   }
 
- 
 
 
 }
 /*-------------- Responsive Nav --------------*/
+
+
+/*-------------- Responsive portfolio --------------*/
+
+@media (max-width: 1000px) {
+  .portfolio-con {
+  flex-wrap: wrap;
+}
+}
+
+@media (max-width: 767px) {
+  .portfolio-con {
+  flex-wrap: wrap;
+ }
+
+  .thumnail img {
+    
+  }
+}
+
+
+/*-------------- Responsive portfolio --------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-------------- Blog portfolio --------------*/
+
+@media (max-width: 767px) {
+  .blog-con {
+    flex-wrap: wrap;
+    justify-content: center;
+}
+}
+
+/*-------------- Blog portfolio --------------*/
