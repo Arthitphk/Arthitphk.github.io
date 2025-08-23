@@ -710,6 +710,25 @@ img.img-main {
 
 }
 
+
+
+
+
+
+
+@media (max-width: 513px) {
+  .banner-con h1 {
+      font-size: 30px;
+    }
+
+ .banner-con p {
+  font-size: 12px;
+ }
+
+}
+
+
+
 @media (max-width: 390px) { 
 
   .banner-con {
@@ -738,6 +757,12 @@ img.img-main {
     color: var(--text-color);
     font-weight: 500;
 }
+
+
+
+    
+
+
 }
 
 /*-------------- banner Nav --------------*/
@@ -794,6 +819,23 @@ img.img-main {
 
 /*-------------- Contact portfolio --------------*/
 
+
+@media (max-width: 513px) {
+    .footer-con {
+  padding: 100px 0 100px 0;
+}
+
+.footer-con {
+  padding: 100px 20px 100px 20px;
+}
+
+
+}
+
+
+
+
+
 @media (max-width: 390px) {
 
 .footer {
@@ -802,7 +844,11 @@ img.img-main {
 
 
 .footer-con {
-  padding: 100px 0 100px 0;
+  padding: 100px 20px 100px 20px;
+}
+
+.footer-title p{
+  font-size: 10px;
 }
 
 
@@ -823,46 +869,7 @@ img.img-main {
   width: 24px;
 }
 
-.phone {
-  display: flex;
-  gap: 10px;
-  align-items: center;
-  font-size: 20px;
-}
 
-.phone p {
-  margin-bottom: 0;
-  font-weight: 700;
-  font-family: "Poppins", sans-serif;
-  font-style: normal;
-}
-
-.phone svg {
-  height: 24px;
-  width: 24px;
-}
-
-.icon-contact {
-  display: flex;
-  margin: 2rem 0 2rem 0;
-  gap: 20px;
-}
-
-.icon-contact svg {
-  height: 30px;
-  width: 30px;
-  color: rgb(145, 158, 171);
-}
-
-.line svg:hover {
-  color: green;
-  cursor: pointer;
-}
-
-.facebook svg:hover {
-  color: #1d4292;
-  cursor: pointer;
-}
 
 
 
