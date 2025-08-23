@@ -37,10 +37,9 @@
 
 /*-------------- Nav --------------*/
 nav {
-   background-color: var(--base-color);
+   background-color: var(--bg-color2);
    color: var(--text-color);
    height: 80px;
-   border-bottom: 1px solid var(--bg-color2);
 }
 
 .nav-con {
@@ -169,6 +168,91 @@ img.img-main {
   color: var(--bg-color2);
   border: 3px solid #000;  
 }
+
+
+.social {
+  display: flex;
+  justify-content: center;
+}
+
+/* From Uiverse.io by ahmed150up2 */ 
+.social-card {
+  display: flex;
+  height: 70px;
+  width: 270px;
+  justify-content: center;
+ 
+}
+
+.social-card svg {
+  position: absolute;
+  display: flex;
+  width: 60%;
+  height: 100%;
+  font-size: 24px;
+  font-weight: 700;
+  opacity: 1;
+  transition: opacity 0.25s;
+  z-index: 2;
+  cursor: pointer;
+}
+
+.social-card .social-link1,.social-card .social-link2,.social-card .social-link3,.social-card .social-link4 {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 25%;
+  color: whitesmoke;
+  font-size: 24px;
+  text-decoration: none;
+  transition: 0.25s;
+  border-radius: 50px;
+}
+
+.social-card svg {
+  transform: scale(1);
+}
+
+.social-card .social-link1:hover {
+  background-color: #1a1e22;
+  animation: bounce_613 0.4s linear;
+}
+
+.social-card .social-link2:hover {
+  background-color: #0a66c2;
+  animation: bounce_613 0.4s linear;
+}
+
+.social-card .social-link3:hover {
+  background-color: #0059f7;
+  animation: bounce_613 0.4s linear;
+}
+
+.social-card .social-link4:hover {
+  background-color: #1d4292;
+  animation: bounce_613 0.4s linear;
+}
+
+@keyframes bounce_613 {
+  40% {
+    transform: scale(1.4);
+  }
+
+  60% {
+    transform: scale(0.8);
+  }
+
+  80% {
+    transform: scale(1.2);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+
 
 
 /*-------------- Banner section --------------*/
@@ -355,8 +439,8 @@ img.img-main {
 
 .blog-item {
   max-width: 350px;
-  border-radius: 0.5rem;
-  background-color: #fff;
+  border-radius: 1rem;
+  background-color: var(--bg-color2);
   overflow: hidden;
 }
 
@@ -386,7 +470,7 @@ img.img-main {
 
 
 .blog-title {
-  color: #111827;
+  color: var( --text-color);
   font-size: 20px;
   line-height: 1.75rem;
   font-weight: 700;
@@ -396,7 +480,7 @@ img.img-main {
 
 .desc {
   margin-top: 0.5rem;
-  color: var( --base-color);
+  color: rgb(145, 158, 171);
   font-size: 0.875rem;
   line-height: 1.25rem;
   font-weight: 600;
@@ -407,13 +491,13 @@ img.img-main {
 .action {
   display: inline-flex;
   margin-top: 1rem;
-  color: #ffffff;
+  color: var( --text-color);
   font-size: 0.875rem;
   line-height: 1.25rem;
   font-weight: 500;
   align-items: center;
   gap: 0.25rem;
-  background-color: #2563EB;
+  background-color: rgb(145, 158, 171);
   padding: 4px 8px;
   border-radius: 4px;
 }
@@ -422,10 +506,100 @@ img.img-main {
   transition: .3s ease;
 }
 
+.action:hover{
+  background-color: var(--hover-color);
+}
+
 .action:hover span {
   transform: translateX(4px);
+  color: var(--text-color);
 }
 
 
 
 /*-------------- Blog section --------------*/
+
+/*-------------- Contact section --------------*/
+
+.footer {
+  background-color: var(--bg-color2);
+  color: var(--text-color);
+  margin-top: 10rem;
+}
+
+
+.footer-con {
+  padding: 150px 0 150px 0;
+}
+
+
+.footer-title {
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  margin: 2rem 0 2rem 0;
+}
+
+
+.email {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin: 2rem 0 1rem 0;
+  font-size: 1.5rem;
+}
+
+.email p{
+  margin-bottom: 0;
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+}
+
+.email svg {
+  height: 24px;
+  width: 24px;
+}
+
+.phone {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  font-size: 1.5rem;
+}
+
+.phone p {
+  margin-bottom: 0;
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+}
+
+.phone svg {
+  height: 24px;
+  width: 24px;
+}
+
+.icon-contact {
+  display: flex;
+  margin: 2rem 0 2rem 0;
+  gap: 20px;
+}
+
+.icon-contact svg {
+  height: 30px;
+  width: 30px;
+  color: rgb(145, 158, 171);
+}
+
+.line svg:hover {
+  color: green;
+  cursor: pointer;
+}
+
+.facebook svg:hover {
+  color: #1d4292;
+  cursor: pointer;
+}
+
+/*-------------- Contact section --------------*/
