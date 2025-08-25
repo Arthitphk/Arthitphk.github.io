@@ -493,8 +493,8 @@ img.img-main {
 
 
 .blog-con {
-    display: flex;
-    gap: 2rem;
+  display: flex;
+  gap: 2rem;
 }
 
 .blog-item {
@@ -827,52 +827,8 @@ img.img-main {
   }
 
   .gallery {
-    width: 100%;
-    overflow-x: auto;
-    margin: 1em auto;
-    display: flex;
-    gap: 1em;
-    scroll-behavior: smooth;
-    scroll-snap-align: start;
-    scroll-snap-type: x mandatory;
-    scroll-marker-group: after;
+    grid-template-columns: repeat(auto-fit, minmax(min(150px,100%), 1fr));
   }
-
-  .gallery::-webkit-scrollbar {
-    display: none;
-  }
-
-  .gallery::scroll-marker-group {
-    display: flex;
-    justify-content: center;
-    gap: .5em;
-  }
-
-  .gallery-item::scroll-marker:target-current {
-    background-color: var(--hover-color);
-  }
-
-
-
-  .gallery-item::scroll-marker {
-    content: '';
-    height: 1em;
-    width: 1em;  
-    background-color: var(--bg-color2);
-    border-radius: 50%;
-  }
-
-
-  .gallery-item {
-    flex: 0 0 auto;
-    height: 100%;
-    padding: 1em;
-    border-radius: .5em;
-    text-align: center;
-    align-items: center;
-  }
-
-
 
   
 }
@@ -883,6 +839,10 @@ img.img-main {
   .portfolio-item p {
     font-size: 12px;
     
+  }
+
+  .gallery {
+    grid-template-columns: repeat(auto-fit, minmax(min(150px,100%), 1fr));
   }
 }
 
@@ -896,6 +856,11 @@ img.img-main {
   .portfolio-item p {
    font-size: 10px;
    }
+
+
+   .gallery {
+    grid-template-columns: repeat(auto-fit, minmax(min(100px,100%), 1fr));
+  }
 }
 
 
@@ -912,6 +877,12 @@ img.img-main {
     justify-content: center;
 }
 }
+
+
+
+ 
+
+
 
 /*-------------- Blog portfolio --------------*/
 
