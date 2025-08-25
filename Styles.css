@@ -833,6 +833,15 @@ img.img-main {
   
 }
 
+@media (max-width: 419px) { 
+  .gallery {
+    grid-template-columns: repeat(auto-fit, minmax(min(100px,100%), 1fr));
+  }
+}
+
+
+
+
 @media (max-width: 415px) {
 
 
@@ -842,7 +851,7 @@ img.img-main {
   }
 
   .gallery {
-    grid-template-columns: repeat(auto-fit, minmax(min(150px,100%), 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(min(100px,100%), 1fr));
   }
 }
 
@@ -858,7 +867,7 @@ img.img-main {
    }
 
 
-   .gallery {
+  .gallery {
     grid-template-columns: repeat(auto-fit, minmax(min(100px,100%), 1fr));
   }
 }
