@@ -838,29 +838,8 @@ img.img-main {
     scroll-marker-group: after;
   }
 
-  .gallery::-webkit-scrollbar {
-    display: none;
-  }
-
-  .gallery::scroll-marker-group {
-    display: flex;
-    justify-content: center;
-    gap: .5em;
-  }
-
-  .gallery-item::scroll-marker:target-current {
-    background-color: var(--hover-color);
-  }
-
-
-
-  .gallery-item::scroll-marker {
-    content: '';
-    height: 1em;
-    width: 1em;  
-    background-color: var(--bg-color2);
-    border-radius: 50%;
-  }
+  
+  
 
 
   .gallery-item {
