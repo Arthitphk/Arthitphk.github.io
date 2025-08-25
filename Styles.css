@@ -22,7 +22,7 @@
 .title, .title-2 {
     text-align: center;
     color: var(--text-color);
-    font-size: 40px;
+    font-size: clamp(2rem, 0.3843rem + 3.4783vw, 3rem);
     font-weight: 600;
     font-family: "Poppins", sans-serif;
     font-style: normal;
@@ -592,12 +592,15 @@ img.img-main {
 }
 
 
+
 .footer-title {
   font-weight: 700;
   font-family: "Poppins", sans-serif;
   font-style: normal;
   margin: 2rem 0 2rem 0;
 }
+
+
 
 
 .email {
