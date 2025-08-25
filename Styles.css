@@ -685,6 +685,9 @@ img.img-main {
     
     
    }
+
+   
+
 }
 
 @media (max-width: 1000px) {
@@ -719,15 +722,20 @@ img.img-main {
 
 
 /*-------------- banner Nav --------------*/
-@media (max-width: 767px) {
 
-   .banner-con p {
+@media (max-width: 1000px) {
+  .banner-con p {
     font-size: 15px;
-    color: var(--text-color);
-    font-weight: 500;
+  }
 }
 
-}
+
+
+
+
+
+
+
 
 
 
