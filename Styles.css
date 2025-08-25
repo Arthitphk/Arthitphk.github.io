@@ -156,18 +156,25 @@ img.img-main {
 
 
 
+
 .banner-con h1 {
     font-size: 50px;
     font-weight: 700;
     font-family: "Poppins", sans-serif;
     font-style: normal;
-    color: var(--text-color);
+    color: transpenrent;
     margin: 1rem;
+    
 }
 
-.banner-con h1 span {
-    color: red;
-}
+ .real-name {
+   color: #A00000; 
+ background-image: linear-gradient(45deg, #A00000 , #FF0000 , #FF6666 ); 
+ background-clip: text; 
+ -webkit-background-clip: text; 
+ -webkit-text-fill-color: transparent;  
+ }
+    
 
 
 .banner-con p {
