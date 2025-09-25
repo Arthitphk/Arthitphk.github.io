@@ -32,8 +32,15 @@
                 </div>
                 <ul class="menu" id="MyMenu">
                     <li><a href="#about">About</a></li>
-                    <li><a href="#portfolio">Portfolio</a></li>
-                    <li><a href="#blog">Blog</a></li>
+                    <div class="dropdown">
+                        <button class="dropbtn">Portfolio</button>
+                        <div class="dropdown-content">
+                            <a href="#portfolio">Website</a>
+                            <a href="#graphic-design">Graphic Design</a>
+                            <a href="#editor">Content Editor</a>
+                            <a href="#blog ">Blog</a>
+                        </div>
+                    </div>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
             </div>
@@ -47,11 +54,10 @@
     <section class="banner" id="about">
         <div class="container">
             <div class="banner-con">
-                <div class="profile-img-wrapper">
-                    <img class="img-main" src="/Images/profile-img.png">
-                </div>
+                <img class="img-main" src="/Images/profile-img.png">
                 <h1 class="real-name">ARTHIT CHATUSOR</h1>
-                <p>Hello, I'm Arthit Chatusor, but you can call me Nont. I have a keen interest in developing myself all the time and new skills. </p>
+                <p>Hello, I'm Arthit Chatusor, but you can call me Nont. I have a keen interest in developing myself all
+                    the time and new skills. </p>
                 <div class="social">
                     <div class="social-card">
                         <a class="social-link1" target=_blank href="https://github.com/Arthitphk">
@@ -227,7 +233,7 @@
 
                 </div>
             </div>
-            <h1 class="title-2">Graphic Design</h1>
+            <h1 id="graphic-design" class="title-2">Graphic Design</h1>
             <div class="gallery">
                 <img class="gallery-item" src="/Images/RETOUCT.png">
                 <img class="gallery-item" src="/Images/G-1.png">
@@ -237,10 +243,11 @@
                 <img class="gallery-item" src="/Images/Salad2.jpg">
             </div>
 
-            <div class="editor">
+            <div class="editor" id="editor">
                 <h1 class="title">Content Editor</h1>
                 <div class="editor-con">
-                    <div class="editor-card" onclick="window.open('https://thinktradethinkditp.com/en/home/#flipbook-df_6038/1/')">
+                    <div class="editor-card"
+                        onclick="window.open('https://thinktradethinkditp.com/en/home/#flipbook-df_6038/1/')">
                         <img src="/Images/think trade.png" alt="">
                         <div class="editor__content">
                             <p class="editor__title">Soft Power</p>

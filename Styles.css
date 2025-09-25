@@ -105,7 +105,7 @@ ul.menu{
 }
 
 ul.menu li {
-    margin: 0 3rem;
+    margin: 0 2rem;
 }
 
 ul.menu li a {
@@ -134,6 +134,57 @@ ul.menu li a:hover {
     
 }
 
+.dropbtn {
+  background-color: var(--bg-color2);
+  color: white;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+}
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: var(--bg-color2);
+  min-width: 150px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+  color: var(--text-color);
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  font-size: 15px;
+}
+
+.dropdown-content a:hover {
+  color: var(--hover-color);
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  color: var(--hover-color);
+  border-bottom: 3px solid var(--hover-color);
+  padding-bottom: 5px;
+}
+
+
+
+
 
 /*-------------- Nav --------------*/
 
@@ -142,14 +193,15 @@ ul.menu li a:hover {
 
 
 /*-------------- Banner section --------------*/
+
 .banner-con {
     text-align: center;
     padding: 80px ;
 }
 
 img.img-main {
-    height: 300px;
-    width: 300px;
+    height: 250px;
+    width: 250px;
     margin: 1rem;
     border-radius: 50%;
     object-fit: cover; 
@@ -323,6 +375,7 @@ img.img-main {
 
 
 /*-------------- Portfolio section --------------*/
+
 
 
 
