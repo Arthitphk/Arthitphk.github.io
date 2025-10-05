@@ -1,4 +1,4 @@
-function toggleHamburgerIcon(el) {
+/*function toggleHamburgerIcon(el) {
   el.classList.toggle("change");
 }
 
@@ -13,3 +13,27 @@ hamicon.addEventListener("click", function() {
         MyMenu.style.display = "block";
     }
 })
+*/
+
+
+let darktheme = localStorage.getItem('darktheme');
+const darkthemeToggle = document.getElementById('theme-switch');
+
+const enableDarkMode = () => {
+    document.body.classList.add('darktheme');
+    localStorage.setItem('darktheme', 'active');
+}
+ 
+const disableDarkMode = () => {
+    document.body.classList.remove('darktheme');
+    localStorage.setItem('darktheme', null);
+}
+
+if (darktheme === 'active') enableDarkMode();
+
+darkthemeToggle.addEventListener("click", () => {
+    darktheme = localStorage.getItem("darktheme");
+    darktheme !== 'active' ? enableDarkMode() : disableDarkMode();
+});
+
+
