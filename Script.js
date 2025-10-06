@@ -1,19 +1,3 @@
-/*function toggleHamburgerIcon(el) {
-  el.classList.toggle("change");
-}
-
-const MyMenu = document.getElementById("MyMenu");
-const hamicon = document.getElementById("hamicon");
-
-
-hamicon.addEventListener("click", function() {
-    if (MyMenu.style.display === "block") {
-        MyMenu.style.display = "none";
-    } else {
-        MyMenu.style.display = "block";
-    }
-})
-*/
 
 
 let darktheme = localStorage.getItem('darktheme');
@@ -35,5 +19,25 @@ darkthemeToggle.addEventListener("click", () => {
     darktheme = localStorage.getItem("darktheme");
     darktheme !== 'active' ? enableDarkMode() : disableDarkMode();
 });
+
+
+
+
+
+
+const hamburger  = document.querySelector('.hamburger');
+const navMenu = document.querySelector('.menu');
+
+hamburger.addEventListener('click', ()=> {
+    hamburger.classList.toggle('active');
+    navMenu.classList.toggle('active');
+})
+
+document.querySelectorAll('.menu-item')
+.forEach(n => n.addEventListener('click', ()=> {
+    hamburger.classList.remove('active');
+    navMenu.classList.remove('active');
+}))
+
 
 

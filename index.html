@@ -21,7 +21,7 @@
 <body>
 
     <!---------- Nav section ---------->
-    <nav>
+    <nav id="desktop-nav">
         <div class="container">
             <div class="nav-con">
                 <ul class="social">
@@ -30,18 +30,25 @@
                     <li class="social-item"><a href=""></a><i class="bi bi-line"></i></li>
                 </ul>
 
-                <ul class="menu" id="MyMenu">
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#about">Project</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                <ul class="menu">
+                    <li class="menu-item"><a href="#home">Home</a></li>
+                    <li class="menu-item"><a href="#project">Project</a></li>
+                    <li class="menu-item"><a href="#contact">Contact</a></li>
                 </ul>
                 <button id="theme-switch">
                     <i class="bi bi-moon-stars-fill"></i>
                     <i class="bi bi-brightness-high-fill"></i>
                 </button>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
             </div>
         </div>
     </nav>
+    
+
 
     <!---------- Nav section ---------->
 
@@ -51,16 +58,18 @@
     <section class="home" id="home">
         <div class="container">
             <div class="homewarpper">
+                
                 <div class="home-con">
-                    <h2>Hello, I'm Arthit Chatusor</h2>
-                    <h1>I'm a Web Developer</h1>
+                    <h2>Hello, I'm</h2>
+                    <h1>Arthit Chatusor</h1>
+                    <h2>Front-end Developer</h2>
                     <p>Welcome to my personal website! I'm passionate about creating beautiful and functional web
-                        experiences. Feel free to explore my projects and get in touch!</p>
-
+                    experiences. Feel free to explore my projects and get in touch!</p>
                 </div>
                 <div class="profile_img">
                     <img src="/Images/profile-img.png" alt="Profile Picture">
                 </div>
+                
             </div>
         </div>
 
@@ -76,7 +85,7 @@
 
 
 
-<script src="Script.js"></script>
+    <script src="Script.js"></script>
 </body>
 
 </html>
