@@ -337,6 +337,103 @@ nav {
 
 
 
+/*-------------- Project section --------------*/
+
+.project-head {
+  display: flex;
+  justify-content: start;
+}
+
+.project-head i {
+ font-size: 2.5rem;
+}
+
+.project-head h1 {
+  margin: 0px;
+  padding: 7px 7px;
+}
+
+.project-item {
+  display: flex;
+  margin-top: 5rem;
+  margin: 30px 0 30px 0;
+  width: min(1170px, 100%);
+  gap: 30px;
+}
+
+.button-sort {
+  display: flex;
+}
+
+.sort-item {
+  margin-right: 10px;
+}
+
+.thumnail {
+    height: 225px;
+    padding: 2px;
+    flex-shrink: 0;
+    position: relative;
+    overflow: hidden;
+    display: grid;
+    place-content: center;
+    border-radius: 8px;
+   
+    
+}
+
+.thumnail:hover {
+  transform: scale(1.1);
+ transition: ease-in .3s;
+}  
+
+.project-con p{
+  font-size: 1rem;
+  color: var(--text-color); 
+}
+
+ 
+
+.project-bt1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 15px;
+    gap: 15px;
+    background-color: var(--color-varinat);
+    outline-offset: -3px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: 400ms;
+    color: var(--text-color);
+    font-size: 0.5rem;
+}
+
+.project-bt1 p {
+    margin-bottom: 0;
+}
+
+
+
+
+.project-bt1 svg path {
+  transition: 400ms;
+}
+
+.project-bt1:hover {
+  background-color: var(--hover-color);
+  
+}
+
+.button-con {
+  display: flex;
+  gap: 10px;
+}
+
+
+
+
 
 
 

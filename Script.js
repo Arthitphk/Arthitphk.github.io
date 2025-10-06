@@ -1,4 +1,6 @@
 
+// Theme Switch
+
 
 let darktheme = localStorage.getItem('darktheme');
 const darkthemeToggle = document.getElementById('theme-switch');
@@ -23,7 +25,7 @@ darkthemeToggle.addEventListener("click", () => {
 
 
 
-
+// Hamburber Toggle
 
 const hamburger  = document.querySelector('.hamburger');
 const navMenu = document.querySelector('.menu');
