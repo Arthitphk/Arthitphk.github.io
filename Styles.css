@@ -3,7 +3,8 @@
   --hover-color: #c10007;
   --text-color: #121212;
   --color-varinat: #ffe2e2;
-  --color-theme:#372aac; 
+  --color-theme:#372aac;
+  --color-tag:  #1fea6d;
 }
 
 .darktheme {
@@ -28,6 +29,7 @@ section {
   background-color: var(--base-color);
   color: var(--text-color);
 }
+
 
 
 
@@ -80,7 +82,7 @@ nav {
   padding: 0;
   border: none;
   border-radius: 50%;
-  background-color: var(--color-varinat);
+  background-color: var(--base-color);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -88,12 +90,7 @@ nav {
 
 .nav-con #theme-switch:hover {
   cursor: pointer;
-  box-shadow: inset 4px 4px 6px -1px rgba(0,0,0,0.2),
-	      inset -4px -4px 6px -1px rgba(255,255,255,0.7),
-	      -0.5px -0.5px 0px rgba(255,255,255,1),
-	      0.5px 0.5px 0px rgba(0,0,0,0.15),
-	      0px 12px 10px -10px rgba(0,0,0,0.05);
-  border: 1px solid rgba(0,0,0,0.1);
+  background-color: var(--color-varinat);
 
 }
 
@@ -218,7 +215,7 @@ nav {
 /*-------------- Home --------------*/
 
 .home {
-  min-height: 70vh;
+  min-height: 80vh;
   display: flex;
   align-items: center;
 }
@@ -342,6 +339,7 @@ nav {
 .project-head {
   display: flex;
   justify-content: start;
+  gap: 1rem;
 }
 
 .project-head i {
@@ -351,14 +349,14 @@ nav {
 .project-head h1 {
   margin: 0px;
   padding: 7px 7px;
+  margin-bottom: 2rem;
 }
 
 .project-item {
   display: flex;
-  margin-top: 5rem;
-  margin: 30px 0 30px 0;
+  gap: 10px;
   width: min(1170px, 100%);
-  gap: 30px;
+  padding: 10px 0 10px 0;
 }
 
 .button-sort {
@@ -378,8 +376,6 @@ nav {
     display: grid;
     place-content: center;
     border-radius: 8px;
-   
-    
 }
 
 .thumnail:hover {
@@ -432,8 +428,162 @@ nav {
 }
 
 
+.sort-item {
+  border: 1px solid var(--text-color);
+  margin-bottom:  10px;
+  border-radius: 10px;
+}
+
+.sort-item:hover {
+  background-color: var(--color-varinat);
+  color: var(--text-color);
+}
+
+.sort-item p {
+  margin-bottom: 0px;
+  padding: 5px 5px ;
+  color: var(--text-color);
+}
+
+@media only screen and (max-width: 992px) {
+  .project-item {
+    flex-direction: column;
+  }
+
+  .thumnail img{
+    height: 100%;
+    width: 100%;
+  }
+}
 
 
+
+
+
+
+
+
+
+
+
+
+/*-------------- Blog section --------------*/
+.blog {
+  padding: 4rem;
+}
+.blog-con {
+  display: flex;
+  gap: 2rem;
+}
+
+
+.blog-head {
+  display: flex;
+  gap: 1rem;
+}
+
+.blog-head i {
+  font-size: 2.5rem;
+}
+
+
+.blog-head h1 {
+  margin: 0px;
+  padding: 7px 7px;
+  margin-bottom: 2.5rem;
+}
+
+
+
+.blog-item {
+  max-width: 350px;
+  border-radius: 1rem;
+  background-color: var(--color-varinat);
+  overflow: hidden;
+}
+
+.blog-item:hover {
+ filter: drop-shadow(-1px 4px 9px #ffc400);
+ transform: scale(1.1);
+ transition: ease-in .3s;
+}
+
+
+
+.blog-item a {
+  text-decoration: none
+}
+
+.content {
+  padding: 1.1rem;
+}
+
+.blog-img img {
+  width:  350px;
+  height: 250px;
+}
+
+
+
+
+
+.blog-title {
+  color: var( --text-color);
+  font-size: 20px;
+  line-height: 1.75rem;
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+}
+
+.desc {
+  margin-top: 0.5rem;
+  color: rgb(145, 158, 171);
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+}
+
+.action {
+  display: inline-flex;
+  margin-top: 1rem;
+  color: var( --text-color);
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-weight: 500;
+  align-items: center;
+  gap: 0.25rem;
+  background-color: var(--color-varinat);
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+
+.action span {
+  transition: .3s ease;
+}
+
+.action:hover{
+  background-color: var(--hover-color);
+}
+
+.action:hover span {
+  transform: translateX(4px);
+  color: var(--text-color);
+}
+
+.title {
+  margin-bottom: 3rem;
+}
+
+
+@media only screen and (max-width: 768px) {
+  .blog-con {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
 
 
 
