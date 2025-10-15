@@ -186,7 +186,7 @@ nav {
   .menu {
     position: fixed;
     left: -100%;
-    top: 70px;
+    top: 65px;
     gap: 0;
     flex-direction: column;
     background-color: var(--color-varinat);
@@ -225,6 +225,11 @@ nav {
 .homewarpper {
   display: flex;
   padding: 50px 20px;
+  
+}
+
+.profile_img {
+  padding: 100px 20px;
 }
 
 .profile_img img {
@@ -252,21 +257,31 @@ nav {
 
 
 .home-con p {
-  font-size: 1rem;
+  font-size: 1.1rem;
   margin-bottom: 30px;
 }
 
 
 @media only screen and (max-width: 992px) {
  .homewarpper {
-  display: flex;
-  padding: 50px 20px;
-  flex-wrap: wrap;
-  justify-content: center;
+    flex-wrap: wrap;
+    justify-content: center;
   }
 
+
+  .profile_img {
+    padding: 10px 10px;
+  }
+
+
+  .home-con h1 {
+    font-size: 3.5rem;
+  } 
+
+
   .home-con {
-    order: 1;
+    padding: 50px;
+    order: 1;                                      
   }
 
   .profile_img img {
@@ -274,10 +289,18 @@ nav {
   height: 450px;
   }
 
+  .homewarpper {
+    gap: 1rem;
+    
+  }
 
 }
 
 @media only screen and (max-width: 768px) {
+
+  .homewarpper {
+    gap: 2rem;
+  }
     
   .profile_img img {
     width: 350px;
@@ -285,14 +308,13 @@ nav {
   }
   
   .home-con {
-    padding: 50px 20px;
+    padding: 10px 20px;
   
   }
 
   .home-con h1 {
-    font-size: 4rem;
+    font-size: 2.9rem;
   }
-
 }
 
 @media only screen and (max-width: 480px) {
