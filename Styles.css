@@ -261,6 +261,26 @@ nav {
   margin-bottom: 30px;
 }
 
+.resume-bth {
+  padding: 10px 20px;
+  background-color: var(--color-varinat);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+
+.resume-bth a{
+  text-decoration: none;
+  color: var(--text-color);
+}
+
+.resume-bth:hover {
+  background-color: var(--hover-color);
+}
+
+
 
 @media only screen and (max-width: 992px) {
  .homewarpper {
