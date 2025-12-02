@@ -618,7 +618,7 @@ display: flex;
 align-items: center;
 gap: 6px;
 font-size: 13px;
-color: #9ca3af;
+color: var(--text-color);
 transition: color 0.3s;
 }
 
@@ -626,7 +626,7 @@ transition: color 0.3s;
 
 .btn-more {
 text-decoration: none;
-color: #f5f5f5;
+color: var(--text-color);
 font-size: 14px;
 font-weight: 500;
 display: flex;
