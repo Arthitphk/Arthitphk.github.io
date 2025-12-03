@@ -551,7 +551,7 @@ nav {
   
 
 .card-blog {
-  background: var(--card-bg-color);
+  background: var( --color-varinat);
   width: 100%; 
   border-radius: 16px;
   overflow: hidden;
