@@ -257,6 +257,36 @@ nav {
 
 
 
+.Career span:after {
+  content: 'Web Developer';
+  animation: words 6s infinite;
+  background-clip: text;
+  color: transparent;
+  background-image: linear-gradient(45deg, #800000 , #dc143c 50%, #eb4667 100%)
+  
+}
+
+.Career span {
+  font-size: column(1.8rem, 10vw, 1rem);
+  
+}
+
+@keyframes words {
+  0%, 40% {
+    content: "Web Development";
+    background-clip: text;
+    color: transparent;
+    background-image: linear-gradient(45deg, #800000 , #dc143c 50%, #eb4667 100%)
+    
+  }
+  30%, 75% {
+    background-clip: text;
+    color: transparent;
+    content: "Frontend Developer";
+    background-image: linear-gradient(45deg, #800000 , #dc143c 50%, #eb4667 100%)
+    
+  }
+}
 
 .home-con p {
   font-size: 1.1rem;
