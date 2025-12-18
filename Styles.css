@@ -632,18 +632,6 @@ padding: 24px;
 flex-grow: 1; 
 }
 
-.card-badge {
-display: inline-block;
-font-size: 12px;
-font-weight: 500;
-padding: 4px 10px;
-border-radius: 99px;
-margin-bottom: 12px;
-}
-
-.badge-blue { background-color: #eff6ff; color: #3b82f6; }
-.badge-green { background-color: #ecfdf5; color: #10b981; }
-.badge-purple { background-color: #f3e8ff; color: #a855f7; }
 
 .title-card { font-size: 18px; font-weight: 600; margin-bottom: 8px; }
 .text-card { font-size: 14px; color: #6b7280; line-height: 1.6; margin-bottom: 24px; }
