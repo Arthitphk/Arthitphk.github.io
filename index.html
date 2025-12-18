@@ -84,213 +84,119 @@
     </section>
 
     <!---------- Project section ---------->
-    <section class="project" id="project">
+   
+    <section class="projects" id="project">
         <div class="container">
-            <div class="project-wrapper">
-                <div class="project-head">
-                    <i class="bi bi-folder2"></i>
-                    <h1 class="title">PROJECTS</h1>
+             <header class="header">
+            <span class="header-label">Selected Works</span>
+        </header>
+
+        <!-- รายการโปรเจกต์แบบ List สลับฝั่ง -->
+        <div class="projects-list">
+            
+            <!-- โปรเจกต์ที่ 01 -->
+            <article class="project-item">
+                <div class="project-image-side">
+                    <img src="/Images/React-web-1.png" class="project-image">
                 </div>
-
-                <div class="project-item">
-                    <div class="thumnail">
-                        <img height="225" width="400" class="project-img" src="/Images/React-web-1.png" alt="marketweb">
+                <div class="project-content-side">
+                    <span class="project-number">01 / Web App Development</span>
+                    <h3 class="project-name">Fintech Dashboard Interface</h3>
+                    <p class="project-description">
+                        Poject ที่ใช้ react,tyscitp ในการเขียนเน้นไปในการรับข้อมูลจาก API มาแสดงผลบนหน้าจอบนเว็บที่เราออกแบบครับ
+                    </p>
+                    <div class="project-tags">
+                        <span class="tag">React</span>
+                        <span class="tag">TypeScript</span>
+                        <span class="tag">Flask</span>
                     </div>
-                    <div class="project-con">
-                        <h3>React + ดึงข้อมูลจาก API</h3>
-                        <p>Poject ที่ใช้ react,tyscitp ในการเขียนเน้นไปในการรับข้อมูลจาก
-                            APIมาแสดงผลบนหน้าจอบนเว็บที่เราออกแบบครับ</p>
-
-                        <div class="button-sort">
-                            <div class="sort-item">
-                                <p>React</p>
-                            </div>
-                            <div class="sort-item">
-                                <p>Typescript</p>
-                            </div>
-                            <div class="sort-item">
-                                <p>Flask</p>
-                            </div>
-                        </div>
-                        <div class="button-con">
-                            <button class="project-bt1"
-                                onclick="window.open('https://github.com/Arthitphk/FEDBC-FinalProject')">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
-                                    class="bi bi-github" viewBox="0 0 16 16">
-                                    <path
-                                        d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8" />
-                                </svg>
-                                <p class="bt1-text">Code</p>
-                            </button>
-                        </div>
-
-                    </div>
+                    <a href="#" class="view-project">
+                        ดูรายละเอียดโครงการ
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                    </a>
                 </div>
+            </article>
 
-                <div class="project-item">
-                    <div class="thumnail">
-                        <img height="225" width="400" class="project-img" src="/Images/WEBAPP.png" alt="marketweb">
-                    </div>
-                    <div class="project-con">
-                        <h3>Personal Management App</h3>
-                        <p>เป็นโปรเจคสุดท้ายของทางของโครงการ Devinit รุ่นที่ 2 ของทาง borntoDev เป็น Web App
+            <!-- โปรเจกต์ที่ 02 -->
+            <article class="project-item">
+                <div class="project-image-side">
+                    <img src="/Images/WEBAPP.png"  class="project-image">
+                </div>
+                <div class="project-content-side">
+                    <span class="project-number">02 / Wep App Development</span>
+                    <h3 class="project-name">Personal Management App</h3>
+                    <p class="project-description">
+                        เป็นโปรเจคสุดท้ายของทางของโครงการ Devinit รุ่นที่ 2 ของทาง borntoDev เป็น Web App
                             ที่สามารถเก็บบันทึกสิ่งต่างๆ ที่อยากจะทำ หรือมีplan เอาใว้ล่วงหน้าก็สามารถจัดการลงใน Web App
-                            ได้เลย</p>
-
-                        <div class="button-sort">
-                            <div class="sort-item">
-                                <p>React</p>
-                            </div>
-                            <div class="sort-item">
-                                <p>Jsx</p>
-                            </div>
-                        </div>
-                        <div class="button-con">
-                            <button class="project-bt1"
-                                onclick="window.open('https://github.com/Arthitphk/FEDBC-FinalProject')">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
-                                    class="bi bi-github" viewBox="0 0 16 16">
-                                    <path
-                                        d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8" />
-                                </svg>
-                                <p class="bt1-text">Code</p>
-                            </button>
-                        </div>
+                            ได้เลย
+                    </p>
+                    <div class="project-tags">
+                        <span class="tag">React</span>
+                        <span class="tag">TypeScript</span>
 
                     </div>
+                    <a href="#" class="view-project">
+                        ดูรายละเอียดโครงการ
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                    </a>
                 </div>
+            </article>
 
-                <div class="project-item">
-                    <div class="thumnail">
-                        <img height="225" width="400" class="project-img" src="/Images/marketweb.png" alt="marketweb">
-                    </div>
-                    <div class="project-con">
-                        <h3>Shopping Cart</h3>
-                        <p>เป็นการ clone website จากเว็บ dribbble.com ครับจะเป็นการใช้ html,cssและ Js
-                            เพิ่มเติมอีกนิดหน่อยครับ เป็น design จาก Musemind — dribbble.com</p>
-
-                        <div class="button-sort">
-                            <div class="sort-item">
-                                <p>HTML</p>
-                            </div>
-                            <div class="sort-item">
-                                <p>CSS</p>
-                            </div>
-                            <div class="sort-item">
-                                <p>Bootstrap</p>
-                            </div>
-                            <div class="sort-item">
-                                <p>Swiper Js</p>
-                            </div>
-
-                        </div>
-                        <div class="button-con">
-                            <button class="project-bt1"
-                                onclick="window.open('https://github.com/Arthitphk/FEDBC-FinalProject')">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
-                                    class="bi bi-github" viewBox="0 0 16 16">
-                                    <path
-                                        d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8" />
-                                </svg>
-                                <p class="bt1-text">Code</p>
-                            </button>
-                            <button class="project-bt1"
-                                onclick="window.open('https://shoppingcartexemple.netlify.app/')">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                                    class="bi bi-arrow-up-right-circle" viewBox="0 0 16 16">
-                                    <path fill-rule="evenodd"
-                                        d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0M5.854 10.803a.5.5 0 1 1-.708-.707L9.243 6H6.475a.5.5 0 1 1 0-1h3.975a.5.5 0 0 1 .5.5v3.975a.5.5 0 1 1-1 0V6.707z" />
-                                </svg>
-                                <p class="bt2-text">Preview</p>
-                            </button>
-                        </div>
-
-
-                    </div>
+            <!-- โปรเจกต์ที่ 03 -->
+            <article class="project-item">
+                <div class="project-image-side">
+                    <img src="/Images/marketweb.png" class="project-image">
                 </div>
-
-                <div class="project-item">
-                    <div class="thumnail">
-                        <img height="225" width="400" class="project-img" src="/Images/blog-web.png" alt="marketweb">
+                <div class="project-content-side">
+                    <span class="project-number">03 / Clone Website</span>
+                    <h3 class="project-name">Shopping Cart</h3>
+                    <p class="project-description">
+                        เป็นการ clone website จากเว็บ dribbble.com ครับจะเป็นการใช้ html,cssและ Js เพิ่มเติมอีกนิดหน่อยครับ เป็น design จาก Musemind — dribbble.com
+                    </p>
+                    <div class="project-tags">
+                        <span class="tag">HTML</span>
+                        <span class="tag">CSS</span>
+                        <span class="tag">Bootstrap</span>
                     </div>
-                    <div class="project-con">
-                        <h3>Blog Platform</h3>
-                        <p>การฝึกฝนการใช้ HTM และ CSS ในการสร้าง Blog platform และเป็นโครงการเก็บสะสมผลงานของ Dev Innit
-                            ครับเป็น design จาก Blog home page — Untitled UI by Jordan Hughes®</p>
-
-                        <div class="button-sort">
-                            <div class="sort-item">
-                                <p>HTML</p>
-                            </div>
-                            <div class="sort-item">
-                                <p>CSS</p>
-                            </div>
-                        </div>
-                        <div class="button-con">
-                            <button class="project-bt1"
-                                onclick="window.open('https://github.com/Arthitphk/FEDBC-FinalProject')">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
-                                    class="bi bi-github" viewBox="0 0 16 16">
-                                    <path
-                                        d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8" />
-                                </svg>
-                                <p class="bt1-text">Code</p>
-                            </button>
-                            <button class="project-bt1" onclick="window.open('https://blog-pf.netlify.app/')">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                                    class="bi bi-arrow-up-right-circle" viewBox="0 0 16 16">
-                                    <path fill-rule="evenodd"
-                                        d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0M5.854 10.803a.5.5 0 1 1-.708-.707L9.243 6H6.475a.5.5 0 1 1 0-1h3.975a.5.5 0 0 1 .5.5v3.975a.5.5 0 1 1-1 0V6.707z" />
-                                </svg>
-                                <p class="bt2-text">Preview</p>
-                            </button>
-                        </div>
-
-                    </div>
+                    <a href="#" class="view-project">
+                        ดูรายละเอียดโครงการ
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                    </a>
                 </div>
+            </article>
 
-                <div class="project-item">
-                    <div class="thumnail">
-                        <img height="225" width="400" class="project-img" src="/Images/figma-landingpage.png"
-                            alt="marketweb">
-                    </div>
-                    <div class="project-con">
-                        <h3>Landing Page</h3>
-                        <p>โดยอิงจาก Figma โดยโจทย์นี้ให้ทำการออกแบบจากบรีฟที่ได้รับ เสมือนว่าได้จากลูกค้า
-                            โดยการออกแบบหน้าเว็บนี้ให้เหมือนกับต้นฉบับให้ได้มากที่สุดครับ</p>
-
-                        <div class="button-sort">
-                            <div class="sort-item">
-                                <p>React</p>
-                            </div>
-                        </div>
-                        <div class="button-con">
-                            <button class="project-bt1"
-                                onclick="window.open('https://github.com/Arthitphk/FEDBC-FinalProject')">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
-                                    class="bi bi-github" viewBox="0 0 16 16">
-                                    <path
-                                        d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8" />
-                                </svg>
-                                <p class="bt1-text">Code</p>
-                            </button>
-
-                            <button class="project-bt1" onclick="window.open('https://figma-landingpage.netlify.app/')">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                                    class="bi bi-arrow-up-right-circle" viewBox="0 0 16 16">
-                                    <path fill-rule="evenodd"
-                                        d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0M5.854 10.803a.5.5 0 1 1-.708-.707L9.243 6H6.475a.5.5 0 1 1 0-1h3.975a.5.5 0 0 1 .5.5v3.975a.5.5 0 1 1-1 0V6.707z" />
-                                </svg>
-                                <p class="bt2-text">Preview</p>
-                            </button>
-                        </div>
-
-                    </div>
+             <!-- โปรเจกต์ที่ 04 -->
+            <article class="project-item">
+                <div class="project-image-side">
+                    <img src="/Images/blog-web.png" class="project-image">
                 </div>
-            </div>
+                <div class="project-content-side">
+                    <span class="project-number">04 / Clone Website</span>
+                    <h3 class="project-name">Blog Platform</h3>
+                    <p class="project-description">
+                       การฝึกฝนการใช้ HTM และ CSS ในการสร้าง Blog platform และเป็นโครงการเก็บสะสมผลงานของ Dev Innit
+                            ครับเป็น design จาก Blog home page — Untitled UI by Jordan Hughes®
+                    </p>
+                    <div class="project-tags">
+                        <span class="tag">HTML</span>
+                        <span class="tag">CSS</span>
+                    </div>
+                    <a href="#" class="view-project">
+                        ดูรายละเอียดโครงการ
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                    </a>
+                </div>
+            </article>
         </div>
+        </div>
+       
     </section>
 
+
+
+
+
+    
 
     <!---------- Blog section ---------->
     <section class="blog" id="blog">
