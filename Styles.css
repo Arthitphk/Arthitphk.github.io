@@ -590,6 +590,10 @@ nav {
             .project-image-side {
                 width: 100%;
             }
+
+            .project-item:last-child {
+            margin-bottom: 0;
+            }
         }
 
         @media (max-width: 640px) {
@@ -603,7 +607,19 @@ nav {
             .header-label {
                 font-size: 1.5rem;
             }
+
+            .project-item:last-child {
+            margin-bottom: 0;
+           }
         }
+
+        @media only screen and (max-width: 360px) {
+            .github-btn {
+            font-size: 8px;
+        }
+
+        }
+   
 
 
 
