@@ -536,6 +536,45 @@ nav {
             color: var(--accent-color);
         }
 
+
+
+        .github-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            background-color: var(--color-varinat); /* สีเข้มเอกลักษณ์ของ GitHub */
+            color: var(--text-color);
+            padding: 12px 24px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-size: 16px;
+            font-weight: 600;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        /* เอฟเฟกต์เมื่อวางเมาส์เหนือปุ่ม */
+        .github-btn:hover {
+            background-color: var(--hover-color);
+            transform: translateY(-2px);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+        }
+
+        /* เอฟเฟกต์เมื่อคลิก */
+        .github-btn:active {
+            transform: translateY(0);
+        }
+
+        /* จัดการขนาดไอคอน SVG */
+        .github-btn svg {
+            fill: currentColor;
+            width: 20px;
+            height: 20px;
+        }
+
+
+
+
         /* Responsive */
         @media (max-width: 992px) {
             .project-item, .project-item:nth-child(even) {
