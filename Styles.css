@@ -426,7 +426,7 @@ nav {
             display: inline-block;
             font-size: 2.5rem;
             font-weight: 500;
-            color: var(--accent-color);
+            color: var(--text-color);
             margin-bottom: 12px;
             letter-spacing: 0.2em;
             text-transform: uppercase;
@@ -736,7 +736,13 @@ transition: color 0.2s;
 
 
 .title {
-  margin-bottom: 3rem;
+   display: inline-block;
+            font-size: 2.5rem;
+            font-weight: 500;
+            color: var(--text-color);
+            margin-bottom: 12px;
+            letter-spacing: 0.2em;
+            text-transform: uppercase;
 }
 
 
