@@ -2,7 +2,7 @@
   --base-color: #FFFFF0;
   --hover-color: #c10007;
   --text-color: #121212;
-  --color-varinat: #ffe2e2;
+  --color-varinat: #ffffff;
   --color-theme:#372aac;
   --color-tag:  #1fea6d;
   --card-bg-color: #f9fafb;
@@ -241,7 +241,7 @@ nav {
 .profile_img img {
   width: 400px;
   height: 400px;
-  border-radius: 15px;
+  border-radius: 30px;
   object-fit: cover;
 }
 
