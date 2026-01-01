@@ -474,6 +474,7 @@ nav {
             display: block;
             filter: grayscale(20%);
             transition: var(--transition);
+            
         }
 
         .project-image-side:hover .project-image {
