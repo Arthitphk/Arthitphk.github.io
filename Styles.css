@@ -236,6 +236,8 @@ nav {
 
 .profile_img {
   padding: 100px 20px;
+  
+  
 }
 
 .profile_img img {
@@ -243,6 +245,9 @@ nav {
   height: 400px;
   border-radius: 30px;
   object-fit: cover;
+  box-shadow: 4px 7px 68px 3px rgba(224,92,92,0.54);
+  -webkit-box-shadow: 4px 7px 68px 3px rgba(224,92,92,0.54);
+  -moz-box-shadow: 4px 7px 68px 3px rgba(224,92,92,0.54);
 }
 
 .home-con {
@@ -328,6 +333,7 @@ nav {
 
   .profile_img {
     padding: 10px 10px;
+    
   }
 
 
@@ -344,7 +350,11 @@ nav {
   .profile_img img {
   width: 450px;
   height: 450px;
+  
+  
   }
+
+
 
   .homewarpper {
     gap: 1rem;
