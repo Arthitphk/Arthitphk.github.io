@@ -641,11 +641,12 @@ nav {
 
 
 .skills-container {
-            background: var(--base-color);
-            padding: 20px;
-            border-radius: 20px;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.05);
-        }
+  background: var(--base-color);
+  padding: 20px;
+  padding-top: 7rem;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+}
 
         .section-header {
             text-align: center;
@@ -674,8 +675,7 @@ nav {
 
         
         .skill-card {
-            background: var(--color-varinat);
-            border: 1px solid #eee;
+            background: var(--base-color);
             border-radius: 15px;
             padding: 30px 20px;
             text-align: center;
@@ -694,9 +694,9 @@ nav {
 
         
         .icon-box {
-            font-size: 3.5rem;
+            font-size: 5rem;
             margin-bottom: 20px;
-            transition: transform 0.3s ease;
+            transition: transform 0.3s ease;            
         }
 
         .skill-card:hover .icon-box {
@@ -858,13 +858,13 @@ transition: color 0.2s;
 
 
 .title {
-   display: inline-block;
-            font-size: 2.5rem;
-            font-weight: 500;
-            color: var(--text-color);
-            margin-bottom: 12px;
-            letter-spacing: 0.2em;
-            text-transform: uppercase;
+  display: inline-block;
+  font-size: 2.5rem;
+  font-weight: 500;
+  color: var(--text-color);
+  margin-bottom: 12px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
 }
 
 
