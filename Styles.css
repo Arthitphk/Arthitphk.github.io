@@ -644,8 +644,6 @@ nav {
   background: var(--base-color);
   padding: 20px;
   padding-top: 7rem;
-  border-radius: 20px;
-  box-shadow: 0 10px 30px rgba(0,0,0,0.05);
 }
 
         .section-header {
