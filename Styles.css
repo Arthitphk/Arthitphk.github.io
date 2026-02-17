@@ -29,6 +29,10 @@
 }
 
 
+html {
+  scroll-behavior: smooth;
+}
+
 
 section {
   background-color: var(--base-color);
@@ -245,9 +249,8 @@ nav {
   height: 400px;
   border-radius: 30px;
   object-fit: cover;
-  box-shadow: 4px 7px 68px 3px rgba(224,92,92,0.54);
-  -webkit-box-shadow: 4px 7px 68px 3px rgba(224,92,92,0.54);
-  -moz-box-shadow: 4px 7px 68px 3px rgba(224,92,92,0.54);
+  
+  
 }
 
 .home-con {
