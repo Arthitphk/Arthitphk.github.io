@@ -7,11 +7,13 @@
   --color-tag:  #1fea6d;
   --card-bg-color: #f9fafb;
   --transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+   --hamburger-color: #c10007; 
 }
 
 .darktheme {
   --base-color: #121212; 
-  --hover-color: #c10007; 
+  --hover-color: #c10007;
+  --hamburger-color: #27272a; 
   --text-color: #ffffff;
   --color-varinat: #27272a;
   --color-theme:#ffba00; 
@@ -167,7 +169,7 @@ nav {
   margin: 5px auto;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  background-color: var(--color-varinat);
+  background-color: var(--hamburger-color);
 }
 /* hamburger */ 
 
@@ -249,8 +251,6 @@ nav {
   height: 400px;
   border-radius: 30px;
   object-fit: cover;
-  
-  
 }
 
 .home-con {
@@ -811,8 +811,17 @@ flex-grow: 1;
 }
 
 
-.title-card { font-size: 18px; font-weight: 600; margin-bottom: 8px; }
-.text-card { font-size: 14px; color: #6b7280; line-height: 1.6; margin-bottom: 24px; }
+.title-card { 
+  font-size: 18px; 
+  font-weight: 600; 
+  margin-bottom: 8px; 
+}
+.text-card { 
+  font-size: 14px; 
+  color: #6b7280; 
+  line-height: 1.6; 
+  margin-bottom: 24px; 
+}
 
 .footer-card{
 padding: 16px 24px;
@@ -840,7 +849,11 @@ color: var(--text-color);
 transition: color 0.3s;
 }
 
- .view-status svg { width: 16px; height: 16px; fill: currentColor; }
+ .view-status svg { 
+  width: 16px; 
+  height: 16px; 
+  fill: currentColor; 
+}
 
 .btn-more {
 text-decoration: none;
