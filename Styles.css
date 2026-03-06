@@ -942,18 +942,20 @@ transition: color 0.2s;
 
 /*-------------- footer section --------------*/
 
-
+.footer {
+   background-color: var(--base-color);;
+    color: var(--text-color);
+}
 
 
 .main-footer {
             background-color: var(--base-color);;
             color: var(--text-color);
-            padding: 60px 20px 20px;
+            
+           
         }
 
 .footer-container {
-            max-width: 1200px;
-            margin: 0 auto;
             display: grid;
             grid-template-columns: 2fr 1fr 1fr;
             gap: 40px;
@@ -1043,6 +1045,7 @@ transition: color 0.2s;
         /* ส่วนลิขสิทธิ์ด้านล่างสุด */
         .footer-bottom {
             margin-top: 50px;
+            padding-bottom: 50px;
             padding-top: 25px;
             border-top: 1px solid #333;
             text-align: center;
